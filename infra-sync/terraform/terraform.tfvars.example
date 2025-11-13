@@ -1,0 +1,15 @@
+aws_region                   = "ap-south-1"
+project_name                 = "infra-sync-drift-guard"
+environment                  = "prod"
+terraform_org_name           = "your_org"
+terraform_workspace          = "aws-main"
+slack_webhook_secret_arn     = "arn:aws:secretsmanager:ap-south-1:123456789012:secret:infra-sync/slack/webhook"
+terraform_api_token_secret_arn = "arn:aws:secretsmanager:ap-south-1:123456789012:secret:infra-sync/terraform/token"
+auto_remediate               = false
+dynamodb_point_in_time_recovery = true
+create_cloudtrail             = true
+create_test_ec2              = false
+ec2_instance_type            = "t3.micro"
+ec2_key_name                 = null
+ec2_subnet_id                = null
+ec2_additional_tags = {}

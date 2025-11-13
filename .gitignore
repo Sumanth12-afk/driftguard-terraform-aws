@@ -1,0 +1,42 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / front-end (optional dashboard)
+node_modules/
+/.next/
+.next/
+dist/
+build/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*
+terraform.tfvars
+terraform.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Environment & secrets
+.env
+.env.*
+
+# Archives / artifacts
+dist/*.zip
+*.tar
+*.gz
+*.zip
+

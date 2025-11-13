@@ -1,0 +1,4 @@
+"""
+InfraSync DriftGuard Lambda package.
+"""
+
