@@ -208,5 +208,5 @@ SNS handles formatting and delivery to email endpoints, avoiding Gmail SMTP rate
 
 ## License
 
-Apache License 2.0 – see [LICENSE](LICENSE) for full text.
+Apache License 2.0 – see [LICENSE](infra-sync/LICENSE) for full text.
 
